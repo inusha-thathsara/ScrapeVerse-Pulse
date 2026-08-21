@@ -163,4 +163,21 @@ describe('ScrapeVerse Pulse — Test Suite', () => {
       assert.strictEqual(body.success, false);
     });
   });
+
+  // ─── 4. AI Data Enrichment Tests ─────────────────────────────────
+  describe('4. AI Data Enrichment Pipeline', () => {
+    test('POST /api/data/:sourceId/enrich generates AI summaries and taxonomy tags', async () => {
+      const { status, body } = await apiGet('/api/data/lobsters');
+      assert.strictEqual(status, 200);
+
+      const enrichRes = await apiPost('/api/data/lobsters/enrich');
+      assert.strictEqual(enrichRes.status, 200);
+      assert.strictEqual(enrichRes.body.success, true);
+      assert.ok(enrichRes.body.data.length > 0);
+      assert.ok(enrichRes.body.data[0].ai_summary, 'Must contain ai_summary');
+      assert.ok(enrichRes.body.data[0].ai_category, 'Must contain ai_category');
+      assert.ok(enrichRes.body.data[0].ai_impact_score, 'Must contain ai_impact_score');
+      assert.ok(Array.isArray(enrichRes.body.data[0].ai_tags), 'Must contain ai_tags array');
+    });
+  });
 });

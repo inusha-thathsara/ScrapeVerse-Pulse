@@ -85,6 +85,20 @@ export async function getSnapshots(sourceId) {
   return request(`/data/${sourceId}/snapshots`);
 }
 
+/** Trigger AI enrichment for a specific dataset */
+export async function enrichSource(sourceId) {
+  return request(`/data/${sourceId}/enrich`, {
+    method: 'POST',
+  });
+}
+
+/** Trigger AI enrichment for all datasets */
+export async function enrichAllSources() {
+  return request('/data/enrich-all', {
+    method: 'POST',
+  });
+}
+
 /** Get API health check */
 export async function getHealth() {
   return request('/health');

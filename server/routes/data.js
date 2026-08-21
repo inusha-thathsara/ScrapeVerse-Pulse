@@ -1,18 +1,21 @@
 /**
- * Data Retrieval Routes
+ * Data Retrieval & AI Enrichment Routes
  * 
- * API endpoints for accessing scraped data, snapshots, and summaries.
+ * API endpoints for accessing scraped data, snapshots, and triggering AI enrichment.
  * 
  * Routes:
- *   GET /api/data                  — Summary of all data sources
- *   GET /api/data/:sourceId        — Latest data for a source
- *   GET /api/data/:sourceId/snapshots — List all snapshots for a source
- *   GET /api/data/:sourceId/snapshots/:filename — Load a specific snapshot
+ *   GET  /api/data                     — Summary of all data sources
+ *   GET  /api/data/:sourceId           — Latest data for a source
+ *   GET  /api/data/:sourceId/snapshots — List all snapshots for a source
+ *   GET  /api/data/:sourceId/snapshots/:filename — Load a specific snapshot
+ *   POST /api/data/:sourceId/enrich    — Enrich dataset with AI summaries & tags
+ *   POST /api/data/enrich-all          — Enrich all available datasets
  */
 
 const express = require('express');
 const router = express.Router();
 const storage = require('../services/storage');
+const enrichment = require('../services/enrichment');
 
 /**
  * GET /api/data
@@ -70,6 +73,68 @@ router.get('/:sourceId/snapshots/:filename', (req, res) => {
       return res.status(404).json({ success: false, error: 'Snapshot not found' });
     }
     res.json({ success: true, ...data });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+/**
+ * POST /api/data/:sourceId/enrich
+ * Trigger AI enrichment on the latest dataset for a source.
+ */
+router.post('/:sourceId/enrich', async (req, res) => {
+  const { sourceId } = req.params;
+  try {
+    const latest = storage.loadLatest(sourceId);
+    if (!latest || !latest.data || latest.data.length === 0) {
+      return res.status(404).json({ success: false, error: `No dataset available to enrich for ${sourceId}` });
+    }
+
+    const rawRecords = Array.isArray(latest.data) ? latest.data : [latest.data];
+    const enrichedRecords = await enrichment.enrichDataset(rawRecords, sourceId);
+
+    const saveResult = storage.saveData(sourceId, enrichedRecords, {
+      collector_id: latest.collector_id,
+      url: latest.url,
+      enriched: true,
+    });
+
+    res.json({
+      success: true,
+      source: sourceId,
+      record_count: saveResult.recordCount,
+      enriched_by: enrichedRecords[0]?.ai_enriched_by || 'AI Engine',
+      data: enrichedRecords,
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+/**
+ * POST /api/data/enrich-all
+ * Enrich all available datasets.
+ */
+router.post('/enrich-all', async (req, res) => {
+  try {
+    const summaries = storage.getAllSourceSummaries().filter(s => s.has_data);
+    const results = [];
+
+    for (const source of summaries) {
+      const latest = storage.loadLatest(source.source_id);
+      if (latest && latest.data) {
+        const raw = Array.isArray(latest.data) ? latest.data : [latest.data];
+        const enriched = await enrichment.enrichDataset(raw, source.source_id);
+        storage.saveData(source.source_id, enriched, {
+          collector_id: latest.collector_id,
+          url: latest.url,
+          enriched: true,
+        });
+        results.push({ source: source.source_id, count: enriched.length });
+      }
+    }
+
+    res.json({ success: true, enriched_sources: results });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }

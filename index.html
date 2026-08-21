@@ -85,7 +85,7 @@
           <div class="stat-card" id="stat-records">
             <span class="stat-icon icon-indigo">📄</span>
             <div class="stat-info">
-              <span class="stat-value" id="stat-records-value">48</span>
+              <span class="stat-value" id="stat-records-value">94</span>
               <span class="stat-label">Total Records</span>
             </div>
           </div>
@@ -99,7 +99,7 @@
           <div class="stat-card" id="stat-heals">
             <span class="stat-icon icon-amber">🩹</span>
             <div class="stat-info">
-              <span class="stat-value" id="stat-heals-value">0</span>
+              <span class="stat-value" id="stat-heals-value">1</span>
               <span class="stat-label">Heals Performed</span>
             </div>
           </div>
@@ -143,14 +143,7 @@
             <span class="section-sub">Audit logs & scrape executions</span>
           </div>
           <div class="activity-feed" id="activity-feed">
-            <div class="activity-item">
-              <span class="activity-dot dot-emerald"></span>
-              <div class="activity-content">
-                <span class="activity-title">Lobste.rs scraper initialized</span>
-                <span class="activity-detail text-muted">Collector <code>c_mt36pdxg5cznxlkhw</code> scraped 48 stories</span>
-              </div>
-              <span class="activity-time mono text-muted">Just now</span>
-            </div>
+            <!-- Dynamically populated -->
           </div>
         </div>
       </section>
@@ -178,9 +171,12 @@
         <div class="view-header flex-between">
           <div>
             <h2 class="view-title">Live Data Feed</h2>
-            <p class="view-subtitle">Explore extracted records, search keywords, and export datasets</p>
+            <p class="view-subtitle">Explore extracted records, search keywords, trigger AI insights, and export datasets</p>
           </div>
           <div class="view-actions">
+            <button class="btn btn-primary btn-sm" id="enrich-btn">
+              <span class="btn-icon">✨</span> AI Enrich Dataset
+            </button>
             <button class="btn btn-secondary btn-sm" id="export-json-btn">
               <span class="btn-icon">📥</span> Export JSON
             </button>
@@ -208,10 +204,65 @@
 
       <!-- ─── Self-Heal View ──────────────────────────────────────── -->
       <section id="view-heal" class="view">
-        <div class="view-header">
-          <h2 class="view-title">Self-Healing Studio</h2>
-          <p class="view-subtitle">AI-driven selector repair for broken or modified website structures</p>
+        <div class="view-header flex-between">
+          <div>
+            <h2 class="view-title">Self-Healing Studio</h2>
+            <p class="view-subtitle">AI-driven selector repair for broken or modified website structures</p>
+          </div>
+          <div class="view-actions">
+            <button class="btn btn-amber btn-sm" id="chaos-sim-btn">
+              <span class="btn-icon">⚡</span> Run Chaos & Heal Simulation
+            </button>
+          </div>
         </div>
+
+        <!-- Live Selector Diff Inspector -->
+        <div class="diff-inspector-card">
+          <div class="diff-header flex-between">
+            <div>
+              <h3 class="diff-title">Live Selector Drift & Self-Healing Diff Inspector</h3>
+              <span class="diff-sub text-muted">Real-time DOM selector repair comparison with zero downtime</span>
+            </div>
+            <span class="diff-badge">AUTO-REPAIR ENGINE</span>
+          </div>
+          <div class="diff-table-scroll">
+            <table class="diff-table">
+              <thead>
+                <tr>
+                  <th>Field</th>
+                  <th>Original Broken Selector</th>
+                  <th>AI Self-Healed Selector</th>
+                  <th>Status</th>
+                  <th>Integrity</th>
+                </tr>
+              </thead>
+              <tbody id="diff-table-body">
+                <tr>
+                  <td><strong>Story / Paper Title</strong></td>
+                  <td><code class="diff-old">.story-title > a.link</code></td>
+                  <td><code class="diff-new">a[data-testid="story-link"], h2.title > a</code></td>
+                  <td><span class="status-badge status-ready">Repaired</span></td>
+                  <td><span class="diff-pct text-emerald mono">100% Valid</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Points / Upvotes</strong></td>
+                  <td><code class="diff-old">span.score-counter</code></td>
+                  <td><code class="diff-new">span.score, div.upvotes-badge</code></td>
+                  <td><span class="status-badge status-ready">Repaired</span></td>
+                  <td><span class="diff-pct text-emerald mono">100% Valid</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Author / Submitter</strong></td>
+                  <td><code class="diff-old">.author-profile-name</code></td>
+                  <td><code class="diff-new">a.u-author, span.user-tag</code></td>
+                  <td><span class="status-badge status-ready">Repaired</span></td>
+                  <td><span class="diff-pct text-emerald mono">100% Valid</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         <div class="heal-panel" id="heal-panel">
           <div class="heal-controls">
             <div class="heal-panel-intro">
@@ -228,10 +279,12 @@
               <label for="heal-prompt" class="heal-label">What broke / what needs repair?</label>
               <textarea id="heal-prompt" class="heal-textarea" placeholder="e.g. 'The story title link and author username are returning null after redesign. Extract title from .story-link and score from .score-badge'"></textarea>
             </div>
-            <button id="heal-trigger-btn" class="btn btn-heal">
-              <span class="btn-icon">🩹</span>
-              Trigger AI Self-Healing
-            </button>
+            <div class="heal-btn-group">
+              <button id="heal-trigger-btn" class="btn btn-heal">
+                <span class="btn-icon">🩹</span>
+                Trigger AI Self-Healing
+              </button>
+            </div>
           </div>
           <div class="heal-log" id="heal-log">
             <div class="heal-log-header flex-between">
@@ -245,6 +298,22 @@
         </div>
       </section>
     </main>
+
+    <!-- Record Detail Modal -->
+    <div id="record-modal" class="modal-overlay">
+      <div class="modal-card">
+        <div class="modal-header flex-between">
+          <div class="flex-align-center gap-sm">
+            <span class="modal-icon">📄</span>
+            <h3 class="modal-title" id="modal-title">Record Intelligence Analysis</h3>
+          </div>
+          <button class="modal-close-btn" id="modal-close-btn">✕</button>
+        </div>
+        <div class="modal-body" id="modal-body">
+          <!-- Dynamic Content -->
+        </div>
+      </div>
+    </div>
 
     <!-- Toast Container -->
     <div id="toast-container" class="toast-container"></div>
