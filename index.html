@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScrapeVerse Pulse — AI-Powered Web Intelligence Dashboard</title>
+  <meta name="description" content="Real-time web intelligence dashboard with self-healing scrapers powered by Bright Data Scraper Studio." />
+
+  <!-- Google Fonts: Inter (UI) + JetBrains Mono (code/data) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/src/css/index.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header id="app-header" class="app-header">
+      <div class="header-inner">
+        <div class="header-brand">
+          <span class="brand-icon">⚡</span>
+          <div class="brand-titles">
+            <h1 class="brand-name">ScrapeVerse <span class="brand-accent">Pulse</span></h1>
+            <span class="brand-tagline">Self-Healing Web Intelligence</span>
+          </div>
+          <span class="brand-badge">LIVE ENGINE</span>
+        </div>
+        <nav class="header-nav">
+          <button class="nav-btn active" data-view="dashboard" id="nav-dashboard">
+            <span class="nav-icon">📊</span>
+            <span>Dashboard</span>
+          </button>
+          <button class="nav-btn" data-view="scrapers" id="nav-scrapers">
+            <span class="nav-icon">🕷️</span>
+            <span>Scrapers</span>
+          </button>
+          <button class="nav-btn" data-view="data" id="nav-data">
+            <span class="nav-icon">📰</span>
+            <span>Data Feed</span>
+          </button>
+          <button class="nav-btn" data-view="heal" id="nav-heal">
+            <span class="nav-icon">🩹</span>
+            <span>Self-Heal</span>
+          </button>
+        </nav>
+        <div class="header-actions">
+          <button class="btn btn-sm btn-ghost" id="refresh-btn" title="Refresh data">
+            <span class="btn-icon">🔄</span>
+            <span>Refresh</span>
+          </button>
+          <div class="engine-status" id="engine-status">
+            <span class="status-pulse-dot"></span>
+            <span class="engine-status-text">Network Connected</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content">
+      <!-- ─── Dashboard View (default) ─────────────────────────────── -->
+      <section id="view-dashboard" class="view active">
+        <div class="view-header flex-between">
+          <div>
+            <h2 class="view-title">Intelligence Dashboard</h2>
+            <p class="view-subtitle">Live analytics, active collectors, and self-healing scraper health</p>
+          </div>
+          <div class="view-actions">
+            <button class="btn btn-primary" id="dashboard-run-all-btn">
+              <span class="btn-icon">⚡</span> Run All Scrapers
+            </button>
+          </div>
+        </div>
+
+        <!-- Stats Cards Row -->
+        <div class="stats-grid" id="stats-grid">
+          <div class="stat-card" id="stat-sources">
+            <span class="stat-icon icon-cyan">🌐</span>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-sources-value">3</span>
+              <span class="stat-label">Active Sources</span>
+            </div>
+          </div>
+          <div class="stat-card" id="stat-records">
+            <span class="stat-icon icon-indigo">📄</span>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-records-value">48</span>
+              <span class="stat-label">Total Records</span>
+            </div>
+          </div>
+          <div class="stat-card" id="stat-health">
+            <span class="stat-icon icon-emerald">💚</span>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-health-value">100%</span>
+              <span class="stat-label">Health Score</span>
+            </div>
+          </div>
+          <div class="stat-card" id="stat-heals">
+            <span class="stat-icon icon-amber">🩹</span>
+            <div class="stat-info">
+              <span class="stat-value" id="stat-heals-value">0</span>
+              <span class="stat-label">Heals Performed</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="charts-row">
+          <div class="chart-card">
+            <div class="card-header">
+              <h3 class="card-title">Source Data Distribution</h3>
+              <span class="card-badge">Volume</span>
+            </div>
+            <div id="chart-donut-container" class="chart-container">
+              <!-- Rendered by charts.js -->
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="card-header">
+              <h3 class="card-title">Scraper Activity & Records</h3>
+              <span class="card-badge">Live Count</span>
+            </div>
+            <div id="chart-bar-container" class="chart-container">
+              <!-- Rendered by charts.js -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Scraper Cards Grid -->
+        <div class="section-divider">
+          <h3 class="section-heading">Active Scraper Collectors</h3>
+          <span class="section-sub">Bright Data Scraper Studio Engines</span>
+        </div>
+        <div class="scraper-grid" id="scraper-grid">
+          <!-- Dynamically populated by JS -->
+        </div>
+
+        <!-- Activity Stream -->
+        <div class="activity-section">
+          <div class="section-divider">
+            <h3 class="section-heading">Recent Engine Activity</h3>
+            <span class="section-sub">Audit logs & scrape executions</span>
+          </div>
+          <div class="activity-feed" id="activity-feed">
+            <div class="activity-item">
+              <span class="activity-dot dot-emerald"></span>
+              <div class="activity-content">
+                <span class="activity-title">Lobste.rs scraper initialized</span>
+                <span class="activity-detail text-muted">Collector <code>c_mt36pdxg5cznxlkhw</code> scraped 48 stories</span>
+              </div>
+              <span class="activity-time mono text-muted">Just now</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Scrapers Control View ───────────────────────────────── -->
+      <section id="view-scrapers" class="view">
+        <div class="view-header flex-between">
+          <div>
+            <h2 class="view-title">Scraper Control Center</h2>
+            <p class="view-subtitle">Manage, trigger runs, inspect collector schemas, and monitor proxies</p>
+          </div>
+          <div class="view-actions">
+            <button class="btn btn-primary" id="scrapers-run-all-btn">
+              <span class="btn-icon">⚡</span> Run All Scrapers
+            </button>
+          </div>
+        </div>
+        <div class="scraper-control-list" id="scraper-control-list">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+
+      <!-- ─── Data Feed View ──────────────────────────────────────── -->
+      <section id="view-data" class="view">
+        <div class="view-header flex-between">
+          <div>
+            <h2 class="view-title">Live Data Feed</h2>
+            <p class="view-subtitle">Explore extracted records, search keywords, and export datasets</p>
+          </div>
+          <div class="view-actions">
+            <button class="btn btn-secondary btn-sm" id="export-json-btn">
+              <span class="btn-icon">📥</span> Export JSON
+            </button>
+            <button class="btn btn-secondary btn-sm" id="export-csv-btn">
+              <span class="btn-icon">📊</span> Export CSV
+            </button>
+          </div>
+        </div>
+
+        <!-- Source Tabs & Search Filter Bar -->
+        <div class="data-feed-toolbar">
+          <div class="data-source-tabs" id="data-source-tabs">
+            <!-- Dynamically populated -->
+          </div>
+          <div class="data-search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="data-search-input" class="search-input" placeholder="Search extracted records..." />
+          </div>
+        </div>
+
+        <div class="data-table-container" id="data-table-container">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+
+      <!-- ─── Self-Heal View ──────────────────────────────────────── -->
+      <section id="view-heal" class="view">
+        <div class="view-header">
+          <h2 class="view-title">Self-Healing Studio</h2>
+          <p class="view-subtitle">AI-driven selector repair for broken or modified website structures</p>
+        </div>
+        <div class="heal-panel" id="heal-panel">
+          <div class="heal-controls">
+            <div class="heal-panel-intro">
+              <span class="heal-badge">AI SELF-HEALING ENGINE</span>
+              <p class="text-secondary text-sm">When a target site changes its HTML, class names, or layout, submit a plain English repair prompt. Scraper Studio will re-analyze the DOM, repair the extraction selectors in-place, and keep your production Collector ID intact.</p>
+            </div>
+            <div class="heal-select-group">
+              <label for="heal-scraper-select" class="heal-label">Target Collector</label>
+              <select id="heal-scraper-select" class="heal-select">
+                <!-- Dynamically populated -->
+              </select>
+            </div>
+            <div class="heal-prompt-group">
+              <label for="heal-prompt" class="heal-label">What broke / what needs repair?</label>
+              <textarea id="heal-prompt" class="heal-textarea" placeholder="e.g. 'The story title link and author username are returning null after redesign. Extract title from .story-link and score from .score-badge'"></textarea>
+            </div>
+            <button id="heal-trigger-btn" class="btn btn-heal">
+              <span class="btn-icon">🩹</span>
+              Trigger AI Self-Healing
+            </button>
+          </div>
+          <div class="heal-log" id="heal-log">
+            <div class="heal-log-header flex-between">
+              <span class="heal-log-title">Heal Activity & Audit Log</span>
+              <span class="heal-log-count mono text-muted" id="heal-log-count">0 operations</span>
+            </div>
+            <div class="heal-log-entries" id="heal-log-entries">
+              <p class="heal-log-empty">No healing operations yet. Trigger one to test the AI self-healing lifecycle.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Toast Container -->
+    <div id="toast-container" class="toast-container"></div>
+  </div>
+
+  <script type="module" src="/src/js/app.js"></script>
+</body>
+</html>

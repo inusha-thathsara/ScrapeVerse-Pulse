@@ -1,0 +1,40 @@
+{
+  "scrapers": [
+    {
+      "id": "lobsters",
+      "name": "Lobste.rs — Tech Stories",
+      "url": "https://lobste.rs",
+      "description": "Tech news stories with scores, authors, tags, and comment counts",
+      "collector_id": "c_mt36pdxg5cznxlkhw",
+      "status": "ready",
+      "last_run": "2026-08-21T17:22:48.000Z",
+      "last_heal": null,
+      "record_count": 48,
+      "icon": "🦞"
+    },
+    {
+      "id": "huggingface",
+      "name": "HuggingFace — AI Papers",
+      "url": "https://huggingface.co/papers",
+      "description": "AI research papers with titles, authors, abstracts, and upvotes",
+      "collector_id": "c_mt36pqqo8b6g3rt1h",
+      "status": "ready",
+      "last_run": null,
+      "last_heal": null,
+      "record_count": 0,
+      "icon": "🤗"
+    },
+    {
+      "id": "devto",
+      "name": "Dev.to — Developer Articles",
+      "url": "https://dev.to",
+      "description": "Developer articles with reactions, comments, reading time, and tags",
+      "collector_id": "c_mt36qguy1o6htmc3m2",
+      "status": "ready",
+      "last_run": null,
+      "last_heal": null,
+      "record_count": 0,
+      "icon": "👩‍💻"
+    }
+  ]
+}

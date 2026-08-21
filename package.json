@@ -1,0 +1,32 @@
+{
+  "name": "into-the-scrape-verse",
+  "version": "1.0.0",
+  "description": "ScrapeVerse Pulse — AI-Powered Web Intelligence Dashboard with Self-Healing Scrapers",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently -n \"API,WEB\" -c \"cyan,magenta\" \"node server/index.js\" \"vite\"",
+    "dev:server": "node server/index.js",
+    "dev:client": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "brightdata",
+    "scraper-studio",
+    "self-healing",
+    "hackathon",
+    "web-intelligence"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "vite": "^8.2.2"
+  }
+}
