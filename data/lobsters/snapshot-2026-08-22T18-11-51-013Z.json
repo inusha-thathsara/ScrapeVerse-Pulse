@@ -1,0 +1,837 @@
+{
+  "source": "lobsters",
+  "scraped_at": "2026-08-22T18:11:51.013Z",
+  "collector_id": "c_mt36pdxg5cznxlkhw",
+  "url": "https://lobste.rs",
+  "record_count": 46,
+  "data": [
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T/#mc251816dfcb7d4dcbf07368f0d288dbfb1b8e1c9",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T/#mc251816dfcb7d4dcbf07368f0d288dbfb1b8e1c9.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://aengelke.net/llvm23-ct.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://aengelke.net/llvm23-ct.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://burakemir.ch/post/formal-semantics/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://burakemir.ch/post/formal-semantics/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://a.baez.link/3mtdbbp2dmc27",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://a.baez.link/3mtdbbp2dmc27.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://typesanitizer.com/blog/performance-issues.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://typesanitizer.com/blog/performance-issues.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://matklad.github.io/2026/08/20/better-batteries.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://matklad.github.io/2026/08/20/better-batteries.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://yashgarg.dev/posts/the-schrodinger-email/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://yashgarg.dev/posts/the-schrodinger-email/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://bharadwajraju.com/posts/btrfs-snapshots-in-kde/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://bharadwajraju.com/posts/btrfs-snapshots-in-kde/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://runjs.app/blog/music-theory-for-programmers",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://runjs.app/blog/music-theory-for-programmers.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://codeberg.org/felixs/nss-userhosts",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://codeberg.org/felixs/nss-userhosts.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.wybxc.cc/blog/rust-gui-survey-2026/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://blog.wybxc.cc/blog/rust-gui-survey-2026/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.felonybench.com/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://www.felonybench.com/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://rust-glancer.github.io/blog/hello-world/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://rust-glancer.github.io/blog/hello-world/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://hackernoon.com/how-i-hacked-and-turned-my-casio-f-91w-into-a-contactless-payment-device",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://hackernoon.com/how-i-hacked-and-turned-my-casio-f-91w-into-a-contactless-payment-device.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.seangoedecke.com/you-should-never-be-angry-at-work/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://www.seangoedecke.com/you-should-never-be-angry-at-work/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.roomy.space/3mplw6vvw4s23",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://blog.roomy.space/3mplw6vvw4s23.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://lina.sh/blog/hijacking-e164-arpa",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://lina.sh/blog/hijacking-e164-arpa.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://entropicthoughts.com/ai-comment-classifier",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://entropicthoughts.com/ai-comment-classifier.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://aerotwist.com/blog/guitar-tuner/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://aerotwist.com/blog/guitar-tuner/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://griffinberlste.in/blog/do-the-thing/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://griffinberlste.in/blog/do-the-thing/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://htmlcat.net/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://htmlcat.net/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://bun.com/blog/bun-v1.4",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://bun.com/blog/bun-v1.4.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.flourish.org/2026/08/personal-apps/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://www.flourish.org/2026/08/personal-apps/.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.eff.org/deeplinks/2026/08/zkps-arent-age-verification-silver-bullets",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://www.eff.org/deeplinks/2026/08/zkps-arent-age-verification-silver-bullets.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://func25.dev/posts/go-memory-visibility/",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Systems & Infrastructure: https://func25.dev/posts/go-memory-visibility/.",
+      "ai_category": "Systems & Infrastructure",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Systems & Infrastructure",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://eprint.gacr.info/2025/003.pdf",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://eprint.gacr.info/2025/003.pdf.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://duckdb.org/2026/08/20/duckdb-20-peg-parser.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.ethanheilman.com/x/33/index.html",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://www.ethanheilman.com/x/33/index.html.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://atproto.com/blog/atproto-spaces-alpha",
+      "input": {
+        "url": "https://lobste.rs"
+      },
+      "ai_summary": "Key tech development in Engineering: https://atproto.com/blog/atproto-spaces-alpha.",
+      "ai_category": "Engineering",
+      "ai_impact_score": 35,
+      "ai_tags": [
+        "Engineering",
+        "lobsters",
+        "Trending"
+      ],
+      "ai_enriched_by": "Local Smart NLP Engine"
+    }
+  ]
+}

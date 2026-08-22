@@ -193,8 +193,8 @@ async function loadDashboard() {
 function renderDashboardStats(scraperList) {
   const activeSources = scraperList.filter(s => s.collector_id).length;
   const totalRecords = scraperList.reduce((sum, s) => sum + (s.record_count || 0), 0);
-  const readyCount = scraperList.filter(s => s.status === 'ready').length;
-  const healthPct = scraperList.length > 0 ? Math.round((readyCount / scraperList.length) * 100) : 0;
+  const healthyCount = scraperList.filter(s => s.status !== 'error').length;
+  const healthPct = scraperList.length > 0 ? Math.round((healthyCount / scraperList.length) * 100) : 0;
   const healCount = scraperList.filter(s => s.last_heal).length || 1;
 
   document.getElementById('stat-sources-value').textContent = activeSources;

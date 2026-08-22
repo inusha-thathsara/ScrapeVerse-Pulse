@@ -1,6 +1,6 @@
 {
   "source": "lobsters",
-  "scraped_at": "2026-08-22T18:13:44.129Z",
+  "scraped_at": "2026-08-22T18:08:49.803Z",
   "collector_id": "c_mt36pdxg5cznxlkhw",
   "url": "https://lobste.rs",
   "record_count": 46,
@@ -9,25 +9,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "product_page_url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -54,43 +36,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://www.seangoedecke.com/you-should-never-be-angry-at-work/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://codeberg.org/felixs/nss-userhosts",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://hackernoon.com/how-i-hacked-and-turned-my-casio-f-91w-into-a-contactless-payment-device",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://runjs.app/blog/music-theory-for-programmers",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/",
+      "product_page_url": "https://burakemir.ch/post/formal-semantics/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -108,51 +54,6 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://typesanitizer.com/blog/performance-issues.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.roomy.space/3mplw6vvw4s23",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://yashgarg.dev/posts/the-schrodinger-email/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.wybxc.cc/blog/rust-gui-survey-2026/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
       "product_page_url": "https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c",
       "input": {
         "url": "https://lobste.rs"
@@ -162,7 +63,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://www.felonybench.com/",
+      "product_page_url": "https://typesanitizer.com/blog/performance-issues.html",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -180,25 +81,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://burakemir.ch/post/formal-semantics/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://rust-glancer.github.io/blog/hello-world/",
+      "product_page_url": "https://yashgarg.dev/posts/the-schrodinger-email/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -216,7 +99,106 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://entropicthoughts.com/ai-comment-classifier",
+      "product_page_url": "https://runjs.app/blog/music-theory-for-programmers",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://codeberg.org/felixs/nss-userhosts",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.wybxc.cc/blog/rust-gui-survey-2026/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.felonybench.com/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://rust-glancer.github.io/blog/hello-world/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://hackernoon.com/how-i-hacked-and-turned-my-casio-f-91w-into-a-contactless-payment-device",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.seangoedecke.com/you-should-never-be-angry-at-work/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.roomy.space/3mplw6vvw4s23",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -234,7 +216,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/",
+      "product_page_url": "https://entropicthoughts.com/ai-comment-classifier",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -243,151 +225,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://griffinberlste.in/blog/do-the-thing/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://func25.dev/posts/go-memory-visibility/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://atproto.com/blog/atproto-spaces-alpha",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://bun.com/blog/bun-v1.4",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.flourish.org/2026/08/personal-apps/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://eprint.gacr.info/2025/003.pdf",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://htmlcat.net/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.ethanheilman.com/x/33/index.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373",
+      "product_page_url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -405,6 +243,60 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
+      "product_page_url": "https://griffinberlste.in/blog/do-the-thing/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://htmlcat.net/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://bun.com/blog/bun-v1.4",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
       "product_page_url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
       "input": {
         "url": "https://lobste.rs"
@@ -414,7 +306,115 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
+      "product_page_url": "https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.flourish.org/2026/08/personal-apps/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
       "product_page_url": "https://www.eff.org/deeplinks/2026/08/zkps-arent-age-verification-silver-bullets",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://func25.dev/posts/go-memory-visibility/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://eprint.gacr.info/2025/003.pdf",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.ethanheilman.com/x/33/index.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://atproto.com/blog/atproto-spaces-alpha",
       "input": {
         "url": "https://lobste.rs"
       }
