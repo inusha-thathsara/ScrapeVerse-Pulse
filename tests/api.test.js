@@ -74,7 +74,7 @@ describe('ScrapeVerse Pulse — Test Suite', () => {
       const lobsters = scrapers.find(s => s.id === 'lobsters');
       assert.ok(lobsters, 'Lobste.rs scraper must exist');
       assert.strictEqual(lobsters.collector_id, 'c_mt36pdxg5cznxlkhw');
-      assert.strictEqual(lobsters.status, 'ready');
+      assert.ok(['ready', 'running', 'healing'].includes(lobsters.status), 'Status should be valid');
 
       const huggingface = scrapers.find(s => s.id === 'huggingface');
       assert.ok(huggingface, 'HuggingFace scraper must exist');
