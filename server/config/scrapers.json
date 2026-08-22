@@ -30,7 +30,7 @@
       "url": "https://dev.to",
       "description": "Developer articles with reactions, comments, reading time, and tags",
       "collector_id": "c_mt36qguy1o6htmc3m2",
-      "status": "error",
+      "status": "ready",
       "last_run": "2026-08-22T08:05:01.037Z",
       "last_heal": null,
       "record_count": 311,
