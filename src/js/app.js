@@ -377,7 +377,16 @@ async function loadSourceData(sourceId) {
 
     if (!data || (Array.isArray(data) && data.length === 0)) {
       currentRawData = [];
-      container.innerHTML = '<p class="empty-state">No data available for this source yet. Trigger a scrape to populate!</p>';
+      container.innerHTML = `
+        <div class="empty-state-card">
+          <span class="empty-icon">🕷️</span>
+          <h4 class="empty-title">No dataset collected for ${sourceId} yet</h4>
+          <p class="empty-sub text-muted">Trigger the Scraper Studio collector to extract live records from the web.</p>
+          <button class="btn btn-primary btn-sm mt-md" onclick="window.__runScraperAndReload('${sourceId}')">
+            ▶ Scrape ${sourceId} Live Data
+          </button>
+        </div>
+      `;
       return;
     }
 
@@ -385,9 +394,23 @@ async function loadSourceData(sourceId) {
     renderDataTable(currentRawData, container);
   } catch (err) {
     currentRawData = [];
-    container.innerHTML = `<p class="empty-state">No dataset found for <strong>${sourceId}</strong>. Trigger a run to scrape live data.</p>`;
+    container.innerHTML = `
+      <div class="empty-state-card">
+        <span class="empty-icon">🕷️</span>
+        <h4 class="empty-title">No dataset collected for ${sourceId} yet</h4>
+        <p class="empty-sub text-muted">Trigger the Scraper Studio collector to extract live records from the web.</p>
+        <button class="btn btn-primary btn-sm mt-md" onclick="window.__runScraperAndReload('${sourceId}')">
+          ▶ Scrape ${sourceId} Live Data
+        </button>
+      </div>
+    `;
   }
 }
+
+window.__runScraperAndReload = async function(sourceId) {
+  await window.__runScraper(sourceId);
+  await loadSourceData(sourceId);
+};
 
 async function triggerEnrichmentUI() {
   if (!activeDataSource) {

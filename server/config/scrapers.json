@@ -7,9 +7,9 @@
       "description": "Tech news stories with scores, authors, tags, and comment counts",
       "collector_id": "c_mt36pdxg5cznxlkhw",
       "status": "ready",
-      "last_run": "2026-08-21T17:22:48.000Z",
+      "last_run": "2026-08-22T07:54:54.371Z",
       "last_heal": null,
-      "record_count": 48,
+      "record_count": 45,
       "icon": "🦞"
     },
     {
@@ -19,9 +19,9 @@
       "description": "AI research papers with titles, authors, abstracts, and upvotes",
       "collector_id": "c_mt36pqqo8b6g3rt1h",
       "status": "ready",
-      "last_run": null,
+      "last_run": "2026-08-22T07:54:45.076Z",
       "last_heal": null,
-      "record_count": 0,
+      "record_count": 48,
       "icon": "🤗"
     },
     {
@@ -30,10 +30,10 @@
       "url": "https://dev.to",
       "description": "Developer articles with reactions, comments, reading time, and tags",
       "collector_id": "c_mt36qguy1o6htmc3m2",
-      "status": "ready",
-      "last_run": null,
+      "status": "error",
+      "last_run": "2026-08-22T08:05:01.037Z",
       "last_heal": null,
-      "record_count": 0,
+      "record_count": 311,
       "icon": "👩‍💻"
     }
   ]

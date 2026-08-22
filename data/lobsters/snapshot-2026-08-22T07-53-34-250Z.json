@@ -1,19 +1,10 @@
 {
   "source": "lobsters",
-  "scraped_at": "2026-08-22T07:54:54.369Z",
+  "scraped_at": "2026-08-22T07:53:34.250Z",
   "collector_id": "c_mt36pdxg5cznxlkhw",
   "url": "https://lobste.rs",
   "record_count": 45,
   "data": [
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.felonybench.com/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
     {
       "score": 0,
       "comment_count": 0,
@@ -36,7 +27,115 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://bharadwajraju.com/posts/btrfs-snapshots-in-kde/",
+      "product_page_url": "https://func25.dev/posts/go-memory-visibility/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://burakemir.ch/post/formal-semantics/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://runjs.app/blog/music-theory-for-programmers",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://htmlcat.net/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://bun.com/blog/bun-v1.4",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.roomy.space/3mplw6vvw4s23",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://a.baez.link/3mtdbbp2dmc27",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://griffinberlste.in/blog/do-the-thing/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -54,7 +153,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+      "product_page_url": "https://lina.sh/blog/hijacking-e164-arpa",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -81,7 +180,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://lina.sh/blog/hijacking-e164-arpa",
+      "product_page_url": "https://www.felonybench.com/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -90,25 +189,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://www.gingerbill.org/article/2026/08/20/designing-odins-inline-asm/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://func25.dev/posts/go-memory-visibility/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "product_page_url": "https://bharadwajraju.com/posts/btrfs-snapshots-in-kde/",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -126,106 +207,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://griffinberlste.in/blog/do-the-thing/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.roomy.space/3mplw6vvw4s23",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://hackaday.com/2026/08/20/homebrew-68k-machine-has-a-pci-bus/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://hackernoon.com/how-i-hacked-and-turned-my-casio-f-91w-into-a-contactless-payment-device",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://burakemir.ch/post/formal-semantics/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://htmlcat.net/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://runjs.app/blog/music-theory-for-programmers",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://a.baez.link/3mtdbbp2dmc27",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://bun.com/blog/bun-v1.4",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://aerotwist.com/blog/guitar-tuner/",
+      "product_page_url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -243,142 +225,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY#L246",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.eff.org/deeplinks/2026/08/zkps-arent-age-verification-silver-bullets",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://eprint.gacr.info/2025/003.pdf",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://eshelyaron.com/posts/2026-08-06-emacs-arbitrary-code-execution-returns.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.ethanheilman.com/x/33/index.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.flourish.org/2026/08/personal-apps/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://www.akitaonrails.com/en/2026/08/19/survival-guide-for-a-censored-internet/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://chrisburnell.com/html-can-do-that/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://nishantjosh.dev/blogs/reclaim-the-terminal/",
-      "input": {
-        "url": "https://lobste.rs"
-      }
-    },
-    {
-      "score": 0,
-      "comment_count": 0,
-      "tags": [],
-      "product_page_url": "https://thenextweb.com/news/waymo-custom-chip-robotaxi-tsmc-ojai",
+      "product_page_url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -396,7 +243,7 @@
       "score": 0,
       "comment_count": 0,
       "tags": [],
-      "product_page_url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
+      "product_page_url": "https://github.com/emacs-mirror/emacs/blob/062dcd2aead00c3b47c14ff5b6c40313f7a775f5/etc/HISTORY#L246",
       "input": {
         "url": "https://lobste.rs"
       }
@@ -406,6 +253,159 @@
       "comment_count": 0,
       "tags": [],
       "product_page_url": "https://github.com/yaoshiu/opus",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.akitaonrails.com/en/2026/08/19/survival-guide-for-a-censored-internet/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://chrisburnell.com/html-can-do-that/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.flourish.org/2026/08/personal-apps/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://aerotwist.com/blog/guitar-tuner/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.eff.org/deeplinks/2026/08/zkps-arent-age-verification-silver-bullets",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://thenextweb.com/news/waymo-custom-chip-robotaxi-tsmc-ojai",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.ethanheilman.com/x/33/index.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://klementoninvesting.substack.com/p/if-this-is-true-the-hyperscalers",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://nishantjosh.dev/blogs/reclaim-the-terminal/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://duckdb.org/2026/08/20/duckdb-20-peg-parser.html",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://eprint.gacr.info/2025/003.pdf",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "input": {
+        "url": "https://lobste.rs"
+      }
+    },
+    {
+      "score": 0,
+      "comment_count": 0,
+      "tags": [],
+      "product_page_url": "https://hackernoon.com/how-i-hacked-and-turned-my-casio-f-91w-into-a-contactless-payment-device",
       "input": {
         "url": "https://lobste.rs"
       }
